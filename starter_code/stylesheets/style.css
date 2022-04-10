@@ -15,13 +15,50 @@ body {
     margin: 0;
 }
 
+.main__background {
+    background-color: #f4f3f4;
+    text-align: center;
 
-h1 h2 {
-    color: #2c303f;
 }
+
+
+.header__h1 {
+    color: #2c303f;
+    text-align: left;
+    font-size: 2em;
+
+}
+
+.header__h2 {
+    color: #2c303f;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0;
+    
+}
+
+.header__div {
+    text-align: left;
+}
+
+.container__image1 {
+    width: 100%;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.image{
+    max-width: 100%;
+}
+
+
 
 p {
     color: #5b5e6d;
+}
+
+.signin {
+    text-align: center;
 }
 
 
@@ -50,6 +87,7 @@ p {
 
 .logo__img {
     max-width: 100%;
+    margin-top: 10px;
 
 }
 
@@ -84,7 +122,16 @@ p {
     margin-left: .5em;
 }
 
-@media screen and (min-width: 700px){
+.container__image2 {
+    width: 100%;
+    background-color: lightblue;
+    text-align: center;
+}
+
+
+
+
+@media screen and (min-width: 1200px){
     .navigation{
         display: inline-block;
     }
@@ -93,8 +140,6 @@ p {
     }
 }
 
-/*
-
 
 .button {
     border: 1px solid currentColor;
@@ -102,16 +147,27 @@ p {
     background-color: white;
     width: 100%;
     padding: .5em 0;
+    text-align: center;
 
 }
 
 .button--blue {
     background-color: #192592;
     color: white;
+    border: 1px solid currentColor;
 
 }
 
-*/
+.button--discover {
+    background-color: white;
+    color: blue;
+    border: 2px solid currentColor;
+    font-style: bold;
+    margin: 2px 0 2px 0;
+}
+
+
+
 
 
 
