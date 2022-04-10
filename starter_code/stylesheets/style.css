@@ -1,58 +1,151 @@
+/*
+background-grey: #F4F3F4;
+button-purple: #192592
+main-titles dark-grey: #2C303F;
+paragraph grey: #5b5e6d;
+nav grey: #5b5e6d;
+*/
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    box-sizing: border-box;
 }
 
-h1 {
-    font-size: 4rem;
+body {
+    margin: 0;
 }
 
-h2 {
-    font-size: 3rem;
+
+h1 h2 {
+    color: #2c303f;
 }
 
 p {
-    font-size: 1rem;
+    color: #5b5e6d;
 }
 
 
-nav {
-    background-color: aliceblue;
-    padding: 30px;
-    text-align: right;
+.footer__links {
+    background-color: #f4f3f4;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: #5b5e6d;
     position: sticky;
-    top: 0;
-    z-index: 5;
-    height: 100px;
 }
 
-
-
-nav ul li {
-    display: inline;
-    margin-right: 25px;
-    margin-bottom: 50px;
+.header__burger{
+    height: auto;
+    display: flex;
+    align-items: center;
 }
 
-.header__ {
-    width: 100%;
-    max-width: 1400px;
+.logo{
+    display: inline-block;
+    width: 100px;
+}
+
+.logo__img {
+    max-width: 100%;
+
+}
+
+.burger{
+    width: 20px;
+    height: 20px;
     display: flex;
     flex-direction: column;
-    padding: 1em 0em 0.3em 0em;
-  }
-  
-.header__ img {
-    max-width: 12%;
-    padding-left: 2em;  
+    justify-content: space-between;
+}
 
-  }
+.burger__line{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+}
 
-  nav ul li:last-child {
-      border: 1px solid black;
-  }
+.navigation {
+    display: none;
+}
+.navigation__list{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.navigation__item{
+    margin-left: .5em;
+}
+
+@media screen and (min-width: 700px){
+    .navigation{
+        display: inline-block;
+    }
+    .burger{
+        display: none;
+    }
+}
+
+/*
+
+
+.button {
+    border: 1px solid currentColor;
+    color: black;
+    background-color: white;
+    width: 100%;
+    padding: .5em 0;
+
+}
+
+.button--blue {
+    background-color: #192592;
+    color: white;
+
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
