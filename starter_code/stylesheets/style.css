@@ -182,6 +182,11 @@ p {
 
 }
 
+.div__directories {
+    display: flex;
+    flex-direction: row;
+}
+
 .footer_rrss {
     width: 100%;
     display: flex;
